@@ -53,7 +53,7 @@
       "name": "Box",
       "position": [
         0,
-        0.5,
+        -1.141253796429916,
         0
       ],
       "rotation": [
@@ -67,7 +67,7 @@
         1,
         1
       ],
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
       "order": 1.4038940050501252
     },
     "a608ddd9-9379-464d-966f-5d8d8674c83c": {
@@ -168,7 +168,7 @@
       "id": "a5502d9a-8f16-40bb-a47b-45ea77e0a928",
       "position": [
         1.0268190672968465,
-        0.40968363689159615,
+        -1.23157015953832,
         0.06335092515440532
       ],
       "rotation": [
@@ -184,7 +184,7 @@
       ],
       "geometry": null,
       "material": null,
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
       "components": {},
       "gltfModel": {
         "src": {
@@ -192,28 +192,31 @@
           "asset": "assets/fon.glb"
         },
         "animationClip": "sit",
-        "loop": true
+        "loop": true,
+        "reverse": false,
+        "timeScale": 0.85,
+        "crossFadeDuration": 1
       },
       "name": "fon.glb",
-      "order": 3.725619132232443
+      "order": 2.633538319791798
     },
     "da8e823b-1ee9-4ed5-ab50-a74edf89a8d0": {
       "id": "da8e823b-1ee9-4ed5-ab50-a74edf89a8d0",
       "position": [
         0,
-        0,
+        -1.641253796429916,
         0
       ],
       "rotation": [
-        -0.7071068178963249,
+        -0.7071068178963248,
         0,
         0,
-        0.707106744476767
+        0.7071067444767682
       ],
       "scale": [
         4.348095509105001,
-        5.451911054286392,
-        1.0000000532124993
+        5.4519110542863825,
+        1.0000000532124977
       ],
       "geometry": {
         "type": "plane",
@@ -224,10 +227,10 @@
         "type": "basic",
         "color": "#616161"
       },
-      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
       "components": {},
       "name": "Plano",
-      "order": 4.881301683689407
+      "order": 4.3330151467667015
     }
   },
   "spaces": {
