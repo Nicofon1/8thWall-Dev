@@ -28,48 +28,6 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.4038940050501252
     },
-    "729478ae-d067-4e0c-a753-66c2e9efb625": {
-      "components": {
-        "8fe14f4e-4311-4b03-807d-a34c9c11368d": {
-          "id": "8fe14f4e-4311-4b03-807d-a34c9c11368d",
-          "name": "example-component",
-          "parameters": {}
-        }
-      },
-      "geometry": {
-        "depth": 1,
-        "height": 1,
-        "type": "box",
-        "width": 1
-      },
-      "id": "729478ae-d067-4e0c-a753-66c2e9efb625",
-      "material": {
-        "color": "#ede4dd",
-        "type": "basic",
-        "textureFiltering": "sharp",
-        "emissiveIntensity": 0,
-        "forceTransparent": false
-      },
-      "name": "Box",
-      "position": [
-        0,
-        -1.141253796429916,
-        0
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        1,
-        1,
-        1
-      ],
-      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
-      "order": 1.4038940050501252
-    },
     "a608ddd9-9379-464d-966f-5d8d8674c83c": {
       "camera": {
         "type": "perspective",
@@ -139,8 +97,661 @@
     "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1": {
       "id": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
       "position": [
+        0.09385506891168482,
+        1.6342888110744835,
+        0
+      ],
+      "rotation": [
         0,
-        1.641253796429916,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.7000000000000001,
+        0.7000000000000001,
+        0.7000000000000001
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Objetivo de la imagen",
+      "imageTarget": {
+        "name": "Tarjeta"
+      },
+      "order": 2.513698600901807
+    },
+    "a5502d9a-8f16-40bb-a47b-45ea77e0a928": {
+      "id": "a5502d9a-8f16-40bb-a47b-45ea77e0a928",
+      "position": [
+        -0.13109253494586773,
+        1.459,
+        -0.045
+      ],
+      "rotation": [
+        -0.10438521064158734,
+        -0.05204925439864357,
+        -0.00547059707971808,
+        0.9931589376748557
+      ],
+      "scale": [
+        36.75000000000002,
+        36.75000000000003,
+        36.75000000000003
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "2770f53b-a999-4187-8feb-cca229c7c4d5": {
+          "id": "2770f53b-a999-4187-8feb-cca229c7c4d5",
+          "name": "Touch Move Animation Trigger",
+          "parameters": {
+            "idleAnim": "sit",
+            "actionAnim": "Idle",
+            "offsetZ": 0.116,
+            "offsetX": 0,
+            "offsetY": -0.022,
+            "holdDuration": 5
+          }
+        }
+      },
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/fon.glb"
+        },
+        "animationClip": "sit",
+        "loop": true,
+        "reverse": false,
+        "timeScale": 0.85,
+        "crossFadeDuration": 1
+      },
+      "name": "fon.glb",
+      "order": 1.8620428747197744
+    },
+    "64d224f8-25e6-4156-ae0b-3cc3c4b1ed47": {
+      "id": "64d224f8-25e6-4156-ae0b-3cc3c4b1ed47",
+      "position": [
+        0.05761811757775526,
+        0.7344660081010539,
+        0
+      ],
+      "rotation": [
+        -0.11786083176414695,
+        0,
+        0,
+        0.9930301225722529
+      ],
+      "scale": [
+        1,
+        1.000000053212482,
+        1.000000053212482
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Grabacin_de_pantalla_2026-05-14_114457_online-video-cuttercom.mp4"
+        },
+        "roughness": 0,
+        "emissiveIntensity": 0,
+        "forceTransparent": false
+      },
+      "parentId": "aa518b71-5f79-4be4-b2b7-e062bf602c61",
+      "components": {},
+      "name": "Plano (1)",
+      "order": 2.564958417680952,
+      "videoControls": {
+        "loop": true,
+        "paused": true
+      }
+    },
+    "aa518b71-5f79-4be4-b2b7-e062bf602c61": {
+      "id": "aa518b71-5f79-4be4-b2b7-e062bf602c61",
+      "position": [
+        0.11683732693653906,
+        0.3663649879896784,
+        -0.04405019449124018
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.35000000000000026,
+        0.35000000000000026,
+        0.35000000000000026
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
+      "components": {
+        "749e29ab-847e-40a3-9bda-fd8b4a2299aa": {
+          "id": "749e29ab-847e-40a3-9bda-fd8b4a2299aa",
+          "name": "Toggle Video Play",
+          "parameters": {
+            "videoEntity": {
+              "type": "entity",
+              "id": "64d224f8-25e6-4156-ae0b-3cc3c4b1ed47"
+            }
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "image": {
+          "type": "asset",
+          "asset": "assets/Icon.svg"
+        },
+        "backgroundSize": "contain"
+      },
+      "name": "Botón",
+      "order": -5.060013941634258
+    },
+    "d6ebafdc-5fec-4cdb-8c71-544249e8c5e5": {
+      "id": "d6ebafdc-5fec-4cdb-8c71-544249e8c5e5",
+      "position": [
+        -0.34305684853093404,
+        1.4491101455636664,
+        -0.02094877760129657
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        5.9999999999999964,
+        5.9999999999999964,
+        5.9999999999999964
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/Tronco.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "Tronco.glb",
+      "order": 2.2422598368704367
+    },
+    "53fe70ef-6e60-4902-81e1-80438f38c039": {
+      "id": "53fe70ef-6e60-4902-81e1-80438f38c039",
+      "position": [
+        0.8947111868711537,
+        0.1654039102087741,
+        0.127992366583187
+      ],
+      "rotation": [
+        0,
+        0.8987940462991668,
+        0,
+        -0.4383711467890776
+      ],
+      "scale": [
+        0.3571428571428572,
+        0.3571428571428571,
+        0.3571428571428572
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/tablero.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "tablero.glb",
+      "order": -7.259147163029273
+    },
+    "9f9505c4-8b21-4c93-b646-4bc19956fdf7": {
+      "id": "9f9505c4-8b21-4c93-b646-4bc19956fdf7",
+      "position": [
+        1.1353981586456614,
+        -0.20536695146904016,
+        -0.010437545671776221
+      ],
+      "rotation": [
+        0,
+        0.09584575252022398,
+        0,
+        0.9953961983671789
+      ],
+      "scale": [
+        0.7142857142857142,
+        0.7142857142857142,
+        0.7142857142857142
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/ARBOLLL.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "ARBOLLL.glb",
+      "order": -7.195136434159565
+    },
+    "dbe79a7a-ae4e-4cca-82aa-b4b864147f2a": {
+      "id": "dbe79a7a-ae4e-4cca-82aa-b4b864147f2a",
+      "position": [
+        -0.14986026472752612,
+        -0.20536695146904016,
+        -0.4006555525943008
+      ],
+      "rotation": [
+        0,
+        0.9902680687415704,
+        0,
+        -0.1391731009600652
+      ],
+      "scale": [
+        0.7142857142857145,
+        0.7142857142857142,
+        0.7142857142857145
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/ARBOLLL.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "ARBOLLL.glb (1)",
+      "order": -6.8750827898110245,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1"
+    },
+    "84259600-8523-4022-9839-59a1d7f529a8": {
+      "id": "84259600-8523-4022-9839-59a1d7f529a8",
+      "position": [
+        0.6880031069498529,
+        -0.20536695146904016,
+        -0.9452378015387058
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        0.7142857142857142,
+        0.7142857142857142,
+        0.7142857142857142
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/ARBOLLL.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "ARBOLLL.glb (2)",
+      "order": -6.939093518680733,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1"
+    },
+    "659bd382-a322-489a-b571-ea369df02596": {
+      "id": "659bd382-a322-489a-b571-ea369df02596",
+      "position": [
+        -0.9948869641473108,
+        -0.20536695146904016,
+        -0.09512224174094402
+      ],
+      "rotation": [
+        0,
+        0.4771587602596085,
+        0,
+        0.8788171126619653
+      ],
+      "scale": [
+        0.7142857142857144,
+        0.7142857142857142,
+        0.7142857142857144
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/ARBOLLL.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "ARBOLLL.glb (3)",
+      "order": -7.131125705289857,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1"
+    },
+    "815cba03-d70a-4618-b608-872d6cdaedfc": {
+      "id": "815cba03-d70a-4618-b608-872d6cdaedfc",
+      "position": [
+        -0.06367796715826107,
+        -0.20536695146904016,
+        -0.9452378015387058
+      ],
+      "rotation": [
+        0,
+        0.18223552549214744,
+        0,
+        0.9832549075639545
+      ],
+      "scale": [
+        0.7142857142857142,
+        0.7142857142857142,
+        0.7142857142857142
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/ARBOLLL.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "ARBOLLL.glb (3)",
+      "order": -7.067114976420149,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1"
+    },
+    "a8d2725b-13ad-4f43-a5af-2f15d4c7a256": {
+      "id": "a8d2725b-13ad-4f43-a5af-2f15d4c7a256",
+      "position": [
+        -0.40316009997101,
+        -0.20536695146904016,
+        -0.6985546633765553
+      ],
+      "rotation": [
+        0,
+        0.9612616959383188,
+        0,
+        0.2756373558169993
+      ],
+      "scale": [
+        0.7142857142857142,
+        0.7142857142857142,
+        0.7142857142857142
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/ARBOLLL.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "ARBOLLL.glb (3)",
+      "order": -7.003104247550441,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1"
+    },
+    "a8b9e1e5-a170-40dd-bfaf-cce8f25ea341": {
+      "id": "a8b9e1e5-a170-40dd-bfaf-cce8f25ea341",
+      "position": [
+        0.8908027927218454,
+        0.2651888998949268,
+        0.15191122470494717
+      ],
+      "rotation": [
+        0,
+        -0.292371704722737,
+        0,
+        0.9563047559630354
+      ],
+      "scale": [
+        0.9999999999999994,
+        0.9999999999999997,
+        0.9999999999999994
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
+      "components": {
+        "32fd0bc8-0bab-42af-a77a-ead58e473e90": {
+          "id": "32fd0bc8-0bab-42af-a77a-ead58e473e90",
+          "name": "Open Link",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 20,
+        "height": 20,
+        "background": "#ad50ff",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "image": {
+          "type": "asset",
+          "asset": "assets/Insta_3.png"
+        },
+        "backgroundSize": "contain"
+      },
+      "name": "Botón",
+      "order": -6.811072060941317
+    },
+    "dd6b5e94-97c9-4cb7-9b04-86408389c82a": {
+      "id": "dd6b5e94-97c9-4cb7-9b04-86408389c82a",
+      "position": [
+        1.0852643388312728,
+        0.46996405842470956,
+        0.3139229110208228
+      ],
+      "rotation": [
+        0,
+        -0.32556815445715703,
+        0,
+        0.9455185755993167
+      ],
+      "scale": [
+        0.9999999999999994,
+        0.9999999999999997,
+        0.9999999999999994
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "4095f89f-654d-4757-aeb2-2b57d3d52745": {
+          "id": "4095f89f-654d-4757-aeb2-2b57d3d52745",
+          "name": "Open Link",
+          "parameters": {
+            "url": "https://www.behance.net/nicolasfonseca1"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 20,
+        "height": 20,
+        "background": "#ad50ff",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "image": {
+          "type": "asset",
+          "asset": "assets/Be_1.png"
+        },
+        "backgroundSize": "contain"
+      },
+      "name": "Botón (1)",
+      "order": -6.747061332071609,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1"
+    },
+    "69c2828c-80c9-4e13-a866-ddadbe00201e": {
+      "id": "69c2828c-80c9-4e13-a866-ddadbe00201e",
+      "position": [
+        -1.80584301343736,
+        0.9454634138512503,
+        -0.02372011981250255
+      ],
+      "rotation": [
+        0,
+        0.9986295347545739,
+        0,
+        0.0523359562429441
+      ],
+      "scale": [
+        1.3999999999999988,
+        1.3999999999999997,
+        1.3999999999999988
+      ],
+      "geometry": null,
+      "material": null,
+      "components": {
+        "ba370d76-fe91-456a-b816-e67e65e51363": {
+          "id": "ba370d76-fe91-456a-b816-e67e65e51363",
+          "name": "Open Link",
+          "parameters": {}
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 20,
+        "height": 20,
+        "background": "#ad50ff",
+        "borderRadius": 0,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "image": {
+          "type": "asset",
+          "asset": "assets/Git_1.png"
+        },
+        "backgroundSize": "contain"
+      },
+      "name": "Botón (2)",
+      "order": 2.3040665333848933,
+      "parentId": "a8d2725b-13ad-4f43-a5af-2f15d4c7a256"
+    },
+    "9f56c082-531d-47f4-a4a7-d193d7691d7f": {
+      "id": "9f56c082-531d-47f4-a4a7-d193d7691d7f",
+      "position": [
+        0.8620783880282393,
+        -0.282338119086075,
+        0.10204950943390063
+      ],
+      "rotation": [
+        0.5645568733699139,
+        0.20768391394780053,
+        0.043407216444265,
+        0.7976582865981336
+      ],
+      "scale": [
+        0.028571428571428647,
+        0.02857142857142887,
+        0.028571428571428907
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/esp32.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "esp32.glb",
+      "order": -6.619039874332192
+    },
+    "0b69191b-b164-42f0-92d0-35d0626ef4bd": {
+      "id": "0b69191b-b164-42f0-92d0-35d0626ef4bd",
+      "position": [
+        0.6617331474380593,
+        -0.26675181956346705,
+        0.08175496804287878
+      ],
+      "rotation": [
+        0,
+        0.8660254037844394,
+        0,
+        -0.4999999999999987
+      ],
+      "scale": [
+        0.00014285714285714355,
+        0.00014285714285714284,
+        0.00014285714285714355
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/cyberdeck.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "cyberdeck.glb",
+      "order": -6.555029145462485
+    },
+    "a304bd92-f934-4cc1-92f2-c0c3aee35f6a": {
+      "id": "a304bd92-f934-4cc1-92f2-c0c3aee35f6a",
+      "position": [
+        0,
+        0,
         0
       ],
       "rotation": [
@@ -158,79 +769,15 @@
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
-      "name": "Objetivo de la imagen",
-      "imageTarget": {
-        "name": "Tarjeta"
-      },
-      "order": 2.513698600901807
-    },
-    "a5502d9a-8f16-40bb-a47b-45ea77e0a928": {
-      "id": "a5502d9a-8f16-40bb-a47b-45ea77e0a928",
-      "position": [
-        1.0268190672968465,
-        -1.23157015953832,
-        0.06335092515440532
-      ],
-      "rotation": [
-        0,
-        0,
-        0,
-        1
-      ],
-      "scale": [
-        150,
-        150,
-        150
-      ],
-      "geometry": null,
-      "material": null,
-      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
-      "components": {},
-      "gltfModel": {
+      "name": "Objeto vacío",
+      "order": 4.276864205395901,
+      "audio": {
+        "loop": true,
         "src": {
           "type": "asset",
-          "asset": "assets/fon.glb"
-        },
-        "animationClip": "sit",
-        "loop": true,
-        "reverse": false,
-        "timeScale": 0.85,
-        "crossFadeDuration": 1
-      },
-      "name": "fon.glb",
-      "order": 2.633538319791798
-    },
-    "da8e823b-1ee9-4ed5-ab50-a74edf89a8d0": {
-      "id": "da8e823b-1ee9-4ed5-ab50-a74edf89a8d0",
-      "position": [
-        0,
-        -1.641253796429916,
-        0
-      ],
-      "rotation": [
-        -0.7071068178963248,
-        0,
-        0,
-        0.7071067444767682
-      ],
-      "scale": [
-        4.348095509105001,
-        5.4519110542863825,
-        1.0000000532124977
-      ],
-      "geometry": {
-        "type": "plane",
-        "width": 1,
-        "height": 1
-      },
-      "material": {
-        "type": "basic",
-        "color": "#616161"
-      },
-      "parentId": "a46bd87c-cb9b-44c0-b2fa-6f8e069694b1",
-      "components": {},
-      "name": "Plano",
-      "order": 4.3330151467667015
+          "asset": "assets/freesound_community-birds-19624.mp3"
+        }
+      }
     }
   },
   "spaces": {
